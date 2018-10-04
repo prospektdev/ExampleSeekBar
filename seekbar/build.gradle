@@ -45,8 +45,8 @@ ext {
 
     libraryDescription = 'SeekBar for Android'
 
-    siteUrl = 'https://github.com/nuuneoi/FBLikeAndroid'
-    gitUrl = 'https://github.com/nuuneoi/FBLikeAndroid.git'
+    siteUrl = 'https://github.com/prospektdev/ExampleSeekBar'
+    gitUrl = 'https://github.com/prospektdev/ExampleSeekBar.git'
 
     libraryVersion = '0.1.1'
 
@@ -58,3 +58,5 @@ ext {
     licenseUrl = 'https://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
 }
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
